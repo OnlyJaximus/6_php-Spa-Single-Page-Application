@@ -1,2 +1,3 @@
 # 6_php_spa
-Use of php OOP and JS language concepts.
+Single Page Application php as backend for single page application and JS language.
+
