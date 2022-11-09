@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accounts App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h3>Accounts</h3>
+      <button id = "accBtn" class="btn btn-primary">Accounts</button>
+      <button id = "addBtn" class="btn btn-info">Add Account</button>
+      <button id = "editBtn"class="btn btn-warning">Edit/Delete</button>
+    </div>
+        <div class="container">
+            <div class="row" id="accView">
+                <div class="col-10 offset-1">
+                      <h4>Accounts</h4>
+
+                      <div class="row">
+                          <div class="col-10 offset-1">
+                              <table class="table">
+                                  <thead>
+                                      <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Deposit</th>
+                                        <th>Credit card</th>
+                                      </tr>
+                                  </thead>
+
+                                  <tbody id="main-body">
+
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row" id="addView">
+                <div class="col-10 offset-1">
+                      <h4>Add Account</h4>
+
+                      <div class="row">
+                          <div class="col-10 offset-1">
+                            <input type="text" name="name"  placeholder="name" class="form-control" required><br>
+                            <input type="text" name="deposit"  placeholder="deposit" class="form-control" required><br>
+                            <input type="text" name="credit_card"  placeholder="credit_card" class="form-control" required><br>
+                            <button id="saveBtn" class="btn btn-primary form-control">Save</button>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/DB.js"></script>
+        <script src="js/main.js"></script>
+
+
+  </body>
+</html>
