@@ -8,4 +8,4 @@ This is a Single Page Application that adds several input fields to the database
 
 ![1](https://user-images.githubusercontent.com/56784702/201079231-66fee223-df50-49e5-b56e-ac7708799a86.png)
 ![2](https://user-images.githubusercontent.com/56784702/201079235-35fc3643-0a7a-41ad-8e0c-837b8a2aa6a0.png)
-
+![3](https://user-images.githubusercontent.com/56784702/203371663-26bbe6ce-4fe7-49ba-887a-b23f550579b3.png)
